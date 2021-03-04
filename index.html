@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1 class="header-title">Reliable, efficient delivery</h1>
+        <h2 class="header-subtitle">Powered by Technology</h2>
+        <p class="header-text">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="main-container">
+        <article class="main-container-card supervisor-card">
+          <h3 class="card-title">Supervisor</h3>
+          <p class="card-text">
+            Monitors activity to identify project roadblocks
+          </p>
+          <span class="icon-card supervisor"></span>
+        </article>
+        <article class="main-container-card team-builder-card">
+          <h3 class="card-title">Team Builder</h3>
+          <p class="card-text">
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <span class="icon-card team-builder"></span>
+        </article>
+        <article class="main-container-card karma-card">
+          <h3 class="card-title">Karma</h3>
+          <p class="card-text">
+            Regularly evaluates our talent to ensure quality
+          </p>
+          <span class="icon-card karma"></span>
+        </article>
+        <article class="main-container-card calculator-card">
+          <h3 class="card-title">Calculator</h3>
+          <p class="card-text">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <span class="icon-card calculator"></span>
+        </article>
+      </section>
+    </main>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://twitter.com/migudebe">Miguel De La Cruz</a>.
+      </p>
+    </footer>
+  </body>
 </html>

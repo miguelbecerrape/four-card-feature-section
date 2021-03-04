@@ -1,0 +1,137 @@
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  margin-top: 60px;
+  width: 100%;
+  min-width: 320px;
+}
+.header-container {
+  width: 90%;
+  min-height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-title {
+  font-size: 2.2rem;
+  font-weight: 200;
+  line-height: 1.8rem;
+  color: var(--Grayish-Blue);
+}
+.header-subtitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--Very-Dark-Blue);
+}
+.header-text {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+}
+main {
+  width: 100%;
+  height: auto;
+}
+.main-container {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+}
+.main-container-card {
+  position: relative;
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 200px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 25px;
+  background-color: var(--black);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+}
+.supervisor-card {
+  border-top: 4px solid var(--Cyan);
+}
+.team-builder-card {
+  border-top: 4px solid var(--Red);
+}
+.karma-card {
+  border-top: 4px solid var(--Orange);
+}
+.calculator-card {
+  border-top: 4px solid var(--Blue);
+}
+.main-container-card .card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--Very-Dark-Blue);
+}
+.main-container-card .card-text {
+  margin-top: 7px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+}
+.main-container-card .icon-card {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  width: 55px;
+  height: 55px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-container-card .supervisor {
+  background-image: url("./images/icon-supervisor.svg");
+}
+.main-container-card .team-builder {
+  background-image: url("./images/icon-team-builder.svg");
+}
+.main-container-card .karma {
+  background-image: url("./images/icon-karma.svg");
+}
+.main-container-card .calculator {
+  background-image: url("./images/icon-calculator.svg");
+}
+
+footer {
+  width: 100%;
+  min-width: 320px;
+  max-width: 400px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.attribution {
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--Grayish-Blue);
+}
+.attribution a {
+  color: var(--Very-Dark-Blue);
+  text-decoration: none;
+}
