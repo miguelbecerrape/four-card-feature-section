@@ -63,7 +63,7 @@ main {
   width: 90%;
   min-width: 288px;
   max-width: 400px;
-  min-height: 200px;
+  height: 240px;
   margin: 0 auto;
   margin-bottom: 25px;
   padding: 25px;
@@ -120,7 +120,7 @@ main {
 footer {
   width: 100%;
   min-width: 320px;
-  max-width: 400px;
+  max-width: 600px;
   padding-left: 40px;
   padding-right: 40px;
   margin: 0 auto;

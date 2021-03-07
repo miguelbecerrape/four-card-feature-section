@@ -15,6 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="(min-width: 1440px)"
+    />
     <title>Frontend Mentor | Four card feature section</title>
   </head>
   <body>
@@ -30,34 +35,41 @@
     </header>
     <main>
       <section class="main-container">
-        <article class="main-container-card supervisor-card">
-          <h3 class="card-title">Supervisor</h3>
-          <p class="card-text">
-            Monitors activity to identify project roadblocks
-          </p>
-          <span class="icon-card supervisor"></span>
-        </article>
-        <article class="main-container-card team-builder-card">
-          <h3 class="card-title">Team Builder</h3>
-          <p class="card-text">
-            Scans our talent network to create the optimal team for your project
-          </p>
-          <span class="icon-card team-builder"></span>
-        </article>
-        <article class="main-container-card karma-card">
-          <h3 class="card-title">Karma</h3>
-          <p class="card-text">
-            Regularly evaluates our talent to ensure quality
-          </p>
-          <span class="icon-card karma"></span>
-        </article>
-        <article class="main-container-card calculator-card">
-          <h3 class="card-title">Calculator</h3>
-          <p class="card-text">
-            Uses data from past projects to provide better delivery estimates
-          </p>
-          <span class="icon-card calculator"></span>
-        </article>
+        <div class="container-left">
+          <article class="main-container-card supervisor-card">
+            <h3 class="card-title">Supervisor</h3>
+            <p class="card-text">
+              Monitors activity to identify project roadblocks
+            </p>
+            <span class="icon-card supervisor"></span>
+          </article>
+        </div>
+        <div class="container-middle">
+          <article class="main-container-card team-builder-card">
+            <h3 class="card-title">Team Builder</h3>
+            <p class="card-text">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <span class="icon-card team-builder"></span>
+          </article>
+          <article class="main-container-card karma-card">
+            <h3 class="card-title">Karma</h3>
+            <p class="card-text">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <span class="icon-card karma"></span>
+          </article>
+        </div>
+        <div class="container-right">
+          <article class="main-container-card calculator-card">
+            <h3 class="card-title">Calculator</h3>
+            <p class="card-text">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <span class="icon-card calculator"></span>
+          </article>
+        </div>
       </section>
     </main>
 
